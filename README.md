@@ -5,6 +5,17 @@ Written exclusively by Claude Opus 5 with 3 total prompt messages from me.
 Built to inspect the assembly of an LTO binary built by CMake.
 The code I wanted to inspect was too complex for CompilerExplorer and CLion's assembly view doesn't support viewing the assembly of LTO'd translation units.
 
+![Example of what the program looks like](assets/hero.png)
+
+The code is roughly [`86de75d85cb7645f53028f80d4f9021a8527217a` of https://github.com/HeaoYe/CPUPathTracing/](https://github.com/HeaoYe/CPUPathTracing/commit/86de75d85cb7645f53028f80d4f9021a8527217a) compiled with
+`-flto=full
+-march=x86-64-v3
+-fwhole-program-vtables
+-fno-math-errno
+-ffp-contract=fast
+-fno-signed-zeros
+-fno-trapping-math`
+
 ## Features
 
 * Color-coded correspondence between the assembly and the source code
