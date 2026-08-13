@@ -1,0 +1,27 @@
+---
+BasedOnStyle: LLVM
+AlignArrayOfStructures: Left
+AlignConsecutiveBitFields:
+  Enabled: true
+AlignConsecutiveMacros:
+  Enabled: true
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+AlignConsecutiveTableGenBreakingDAGArgColons:
+  Enabled: true
+AlignConsecutiveTableGenCondOperatorColons:
+  Enabled: true
+AlignConsecutiveTableGenDefinitionColons:
+  Enabled: true
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
+BinPackArguments: false
+BinPackLongBracedList: false
+BinPackParameters: OnePerLine
+BreakConstructorInitializers: BeforeColon
+InsertBraces: true
+LineEnding: LF
+PackConstructorInitializers: CurrentLine
